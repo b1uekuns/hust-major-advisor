@@ -175,7 +175,8 @@ def suggest_majors():
     print("\n--- CÁC NGÀNH HỌC PHÙ HỢP GỢI Ý CHO BẠN ---")
     
     if not results:
-        print("Rất tiếc, không tìm thấy ngành nào phù hợp với điểm số và sở thích của bạn.")
+        print("Rất tiếc, không tìm thấy ngành nào phù hợp với điểm số và sở thích của bạn." \
+        " Hãy thử lại với các sở thích khác xem sao.")
         return
 
     # Sắp xếp kết quả với 3 tiêu chí
