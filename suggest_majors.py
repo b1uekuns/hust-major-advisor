@@ -180,8 +180,10 @@ def suggest_majors():
 
     # Sắp xếp kết quả với 3 tiêu chí
     safety_order = {"Rất an toàn": 0, "An toàn": 1, "Cân nhắc": 2, "Thách thức": 3, "Không có dữ liệu điểm chuẩn": 4}
+    
     sorted_results = sorted(results, key=lambda x: (
-        -x['DiemPhuHop'], 
+        -x['DiemPhuHop'],
+        0 if x['LoaiChuongTrinh'] == 'Chương trình Chuẩn' else 1,
         safety_order.get(x['DoAnToan'], 99),
         -x['DiemChuan2024'] if pd.notna(x['DiemChuan2024']) else 0
     ))
