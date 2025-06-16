@@ -52,7 +52,7 @@ def suggest_majors():
             "AI, Machine-learning, Khoa học dữ liệu, Big-data",
             "An toàn thông tin, Cyber-security, Bảo mật mạng",
             "Phần cứng, Kiến trúc máy tính, Hệ điều hành",
-            "Toán ứng dụng, Tin học, Thuật toán, Hệ thống"
+            "Toán ứng dụng, Tin học, Thuật toán, Hệ thống",
             "Giáo dục, E-learning,Lập trình",
             "Thuật toán, Hệ thống, Phân tích dữ liệu, Lập trình, Quản lý"
         ],
