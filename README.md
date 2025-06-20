@@ -27,4 +27,4 @@ Hệ thống chuyên gia tư vấn ngành học dựa trên điểm thi đánh g
 
 ## Nguồn dữ liệu
 
-Dữ liệu điểm chuẩn được lấy từ kết quả tuyển sinh của Trường Đại học Bách Khoa Hà Nội.
+Dữ liệu điểm chuẩn được lấy từ kết quả tuyển sinh của Đại Học Bách Khoa Hà Nội.
